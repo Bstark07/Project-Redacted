@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+
+    <link rel="stylesheet" href="../styles/nav.css" type="text/css" />
+    <link rel="stylesheet" href="../styles/content.css" type="text/css" />
+    <link rel="stylesheet" href="../styles/footer.css" type="text/css" />
+    <link rel="stylesheet" href="../styles/techniques.css" type="text/css" />
+    <script src="caesar.js"></script>
+</head>
+
+<body>
+    <!--                  Website Nav                 -->
+
+    <nav>
+        <div class="logo">
+        </div>
+        <ul style="float: left;">
+            <li><a href="../index.html">Project <redacted style="background-color: black; color: red;">Redacted</redacted>
+                </a></li>
+        </ul>
+        <ul>
+            <li><a href="../feedback.html">Feedback</a></li>
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../techniques.html">Techniques</a></li>
+        </ul>
+    </nav>
+    <!--                  end Nav                 -->
+
+    <div class="content" style="height:250vh;">
+        <!-- Cipher Definitions -->
+        <section id="cipher-definitions">
+            <h2>Cryptography Cipher Lingo</h2>
+            <span><strong><a href="https://en.wikipedia.org/wiki/Ciphertext">Ciphertext/cyphertext</a>-</strong> The
+                result from encrypting some text using a algorithm or cipher.</span>
+            <span></span>
+        </section>
+        <hr>
+
+        <!-- List of Cipher Types with Interactive Examples -->
+        <section id="cipher-list">
+            <div class="cipher-list-item">
+                <h2><strong><a href="https://en.wikipedia.org/wiki/Transposition_cipher">
+                            Transposition Cipher</a></strong></h2>
+                <p></p>
+                <img src="" alt="">
+            </div>
+
+            <div class="cipher-list-item">
+                <h2><strong><a href="https://en.wikipedia.org/wiki/Substitution_cipher">
+                            Substitution Cipher</a></strong></h2>
+                <p></p>
+                <img src="" alt="">
+                <h1 class="text-middle">Caesar Cyphers</h1>
+
+                <p>Caesar ciphers are one of the simplest substitution cipher encryption techniques, each letter in a
+                    set of text is shifted by
+                    a set amount. For example the letter "A" with a positive shift of 1 becomes "B", likewise "A" with a
+                    negative shift, loops around and becomes a "Z"</p>
+                <p style="width: 40em; text-align: center; margin-left: auto; margin-right: auto;">
+                    Have a go with a interactive caesar cyper below, put in the input letters then set a shift amount
+                    and
+                    hit cipherize!</p>
+                    <!-- Interactive Ceaser Cipher -->
+                <div class="cipher-app">
+                    </form>
+                    <form class="cipher-form" id="shift" style="display: block; margin-left: auto;
+                    margin-right: auto; width: 20em" onsubmit="return cipherize()">
+                        Shift Amount
+                        <input id="shift_amount" type="text" class="cipher-form-item" maxlength="1" value="4">
+                        <input type="submit" value="Cipherize"></h2>
+                    </form>
+                    Input
+                    <form class="cipher-form" action="" id="input">
+                        <input id="input_1" type="text" class="cipher-form-item" maxlength="1" value="A">
+                        <input id="input_2" type="text" class="cipher-form-item" maxlength="1" value="B">
+                        <input id="input_3" type="text" class="cipher-form-item" maxlength="1" value="C">
+                        <input id="input_4" type="text" class="cipher-form-item" maxlength="1" value="D">
+                    </form>
+                    <form class="cipher-form" id="output">
+                        Output
+                        <input id="output_1" type="text" class="cipher-form-item" disabled>
+                        <input id="output_2" type="text" class="cipher-form-item" disabled>
+                        <input id="output_3" type="text" class="cipher-form-item" disabled>
+                        <input id="output_4" type="text" class="cipher-form-item" disabled>
+
+                </div>
+            </div>
+
+            <div class="cipher-list-item">
+                <h2><strong><a href="https://en.wikipedia.org/wiki/Substitution_cipher">Square
+                            Cipher</a></strong></h2>
+                <p></p>
+                <img src="" alt="">
+            </div>
+        </section>
+        <hr>
+        <section id="caesar-cypher">
+
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="site-map footer-card">
+                <h1>Site Map</h1>
+                <ul>
+                    <li><a href="../assignment.html"> Assignment</a></li>
+                    <li><a href="../feedback.html">Feedback</a></li>
+                    <li><a href="../about.html">About Us</a></li>
+                    <li><a href="../projects.html">Projects</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-about footer-card">
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est
+                    laborum."</p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            Copyright 2019
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+
+/* Gives each cipher list item some margin room */
+.cipher-list-item {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+/* Gives the cipher app backgrounds/borders/paddings and aligns everything */
+.cipher-app {
+    width: 55em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blanchedalmond;
+    border: solid black 1px;
+    padding: 1em;
+}
+
+/* Margins and inline settings for input/output/shift forms */
+.cipher-form {
+    display: inline-block;
+    margin: 1em;
+}
+
+.cipher-form-item {
+    height: 4em;
+    width: 4em;
+    text-align: center;
+}

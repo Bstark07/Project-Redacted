@@ -1,0 +1,133 @@
+/*Nav Bar stlyes, no list types and default padding for look*/
+body {
+  background-color: #282828;
+  padding-top: 6em;
+  margin: 0;
+  font-family: monospace;
+  text-decoration: none;
+}
+
+.container {
+  display: inline-flex;
+}
+
+.container-item {
+  margin: 5em;
+}
+
+
+.col {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+
+/* Sets standard general content rules for pages */
+.content {
+  width: 70vw;
+  height: auto;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4em;
+}
+
+section {
+  margin: 2em 0 4em 0;
+}
+
+/* Aligns text to middle */
+.text-middle {
+  text-align: center;
+}
+
+/* Horizontal content align */
+.content-middle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* General Purpose Clickable Squares */
+.content-square {
+  width: 15em;
+  height: 15em;
+  border: 2px solid grey;
+  display: inline-block;
+  margin: 2em;
+  overflow: hidden;
+  color: black;
+  text-decoration: none;
+  padding: 0.5em;
+}
+
+.content-square:hover {
+  background-color: #F0F0F0;
+}
+
+.content-square h2 {
+  text-align: center;
+}
+
+.content-square p {
+  text-align: center;
+}
+
+/* General Purpose Clickable bars */
+
+.content-bar {
+  width: auto;
+  display: flex;
+  height: auto;
+  border: 2px solid grey;
+  margin: 1em;
+  overflow: hidden;
+  color: black;
+  text-decoration: none;
+  padding: 0.5em;
+}
+
+.content-bar:hover {
+  background-color: #F0F0F0;
+}
+
+.content-bar h2 {
+  text-align: center;
+}
+
+.content-bar p {
+  text-align: center;
+}
+
+.image-gallery {
+  display: flex;
+  border: solid gainsboro 5px;
+}
+
+.gallery-item {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-image {
+  display: inline;
+  width: 10em;
+  height: 10em;
+  overflow: hidden
+}
+
+
+@media screen and (max-width: 1024px) {
+  .container {
+    display: block;
+  }
+  
+  .container-item {
+    display: block;
+  }
+}

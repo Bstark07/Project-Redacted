@@ -1,0 +1,44 @@
+nav {
+    background-color: white;
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    height: auto;
+    width: 100vw;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-right: 2em;
+
+}
+
+nav li {
+    float: right;
+    padding: 1em;
+}
+
+nav li a {
+    display: inline;
+    color: black;
+    font-family: monospace;
+    text-decoration: none;
+
+}
+
+nav li a:hover {
+    text-decoration: line-through;
+
+}
+
+.active {
+    background-color: black;
+}
+
+.redacted_text {
+    background-color: black; 
+    color: black;
+}

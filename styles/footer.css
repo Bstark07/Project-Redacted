@@ -1,0 +1,44 @@
+/* Footer Width and Colour */
+footer {
+  margin-top: 2em;
+    width: 100%;
+    background-color: white;
+}
+
+
+/* Sets the width of any divs inside a col class to 30% mainly used for the footer*/
+.footer-content {
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-card {
+  width: 30vw;
+  display: inline-block;
+}
+
+.footer-about {
+
+}
+
+.site-map {
+
+}
+
+/* Copyright layout, centred and coloured */
+.copyright {
+    width: 100%;
+    background-color: #282828;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+
+@media screen and (max-width: 600px) {
+  .footer-card {
+  width: 100vw;
+  display: block;
+  }
+}
